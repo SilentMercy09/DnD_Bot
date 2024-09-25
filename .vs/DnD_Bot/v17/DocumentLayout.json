@@ -14,16 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,7 +24,7 @@
               "RelativeDocumentMoniker": "DnD_Discord_Bot.py",
               "ToolTip": "C:\\Users\\sklem\\source\\repos\\SilentMercy09\\DnD_Bot\\DnD_Discord_Bot.py",
               "RelativeToolTip": "DnD_Discord_Bot.py",
-              "ViewState": "AgIAAOUAAAAAAAAAAAAiwPsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwPsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-09-25T01:49:35.567Z",
               "EditorCaption": ""
