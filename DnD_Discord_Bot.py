@@ -227,7 +227,27 @@ async def withdraw(ctx, amount: int, denomination: str):
 
 
 
-# Run the bot, both are troubleshooting efforts.
-bot.run('')
-CHANNEL_ID=
+# Below is declaring the Bot key and the Channel ID. 
+# Step 1: Prompt the user for the folder path where the files are stored
+folder_path = input("Enter the folder path where the bot key and channel ID files are stored: ")
+
+# Step 2: Within the folder you are directing, ensure that the Bot_Key.txt and Channel_ID.txt are present, it will automatically pull them.
+bot_key_filename = "Bot_Key.txt"
+channel_id_filename = "Channel_ID.txt"
+
+# Step 3: Construct the full paths to the files
+bot_key_path = f"{folder_path}/{bot_key_filename}"
+channel_id_path = f"{folder_path}/{channel_id_filename}"
+
+# Step 4: Read the bot key and channel ID from the files
+with open(bot_key_path, 'r') as bot_key_file:
+    bot_key = bot_key_file.read().strip()
+
+with open(channel_id_path, 'r') as channel_id_file:
+    CHANNEL_ID = channel_id_file.read().strip()
+
+# Step 5: Run the bot with the actual bot key
+bot.run(bot_key)
+
+
 
